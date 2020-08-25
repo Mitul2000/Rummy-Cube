@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-image: url("index_background.png");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.backPic {
+  background-color: rgba(235, 109, 109, 0.5);
+}
+
+.title {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: "Poppins", sans-serif;
+  color: azure;
+  text-align: center;
+}
+form {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > div {
+  margin: 20px;
+}
+label {
+  font: 1.5em "typewriter", sans-serif;
+  color: aliceblue;
+  margin-right: 30px;
+}
+input,
+textarea {
+  font: 1.4em/1.5em "handwriting", cursive, sans-serif;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  padding: 0 20px;
+  width: 50%;
+  background: rgba(255, 255, 255, 0.2);
+}
+button {
+  padding: 5px;
+  font: bold 0.6em sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: rgb(65, 105, 225);
+  cursor: pointer;
+  transform: rotate(-1.5deg);
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: rgb(133, 133, 216);
+  color: #fff;
+}

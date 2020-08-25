@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="mainpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="title">Welcome To Rummy Cube</h1>
+    <div class="backPic">
+      <form action="/game" method="POST" class="felement">
+        <div class="Nelement">
+          <label for="Name">Name </label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="CRelement">
+          <label for="CreateRoom">Create A Room</label>
+          <input type="checkbox" name="CreateRoom" id="CreateRoom" />
+        </div>
+        <div class="JRelement">
+          <label for="JoinRoom">Join A Room</label>
+          <input type="text" name="JoinRoom" id="JoinRoom" />
+        </div>
+
+        <div class="Selement">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      const ischecked = document.getElementById("CreateRoom");
+      const JoinRoom = document.getElementById("JoinRoom");
+
+      setInterval(function () {
+        if (ischecked.checked) {
+          JoinRoom.value = JoinRoom.defaultValue;
+        }
+      }, 100);
+    </script>
+  </body>
+</html>

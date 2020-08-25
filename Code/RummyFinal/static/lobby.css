@@ -1,0 +1,46 @@
+body {
+  background-color: #3a7f8f;
+  margin: 0em;
+}
+#pltitle {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: bisque;
+}
+
+.roominfo {
+  background-color: cadetblue;
+}
+.roominfo > h3 {
+  display: inline-block;
+}
+
+#roomid {
+  margin-left: 43%;
+}
+#players {
+  height: 200px;
+  width: 100%;
+  background-color: coral;
+}
+.avitar {
+  display: inline-block;
+  margin-left: 20%;
+}
+button {
+  padding: 5px;
+  font: bold 0.6em sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: rgb(65, 105, 225);
+  cursor: pointer;
+  transform: rotate(-1.5deg);
+  margin-left: 45%;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: rgb(133, 133, 216);
+  color: #fff;
+}

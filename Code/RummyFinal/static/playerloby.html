@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="lobby.css" />
+    <script src="/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+    <h1 id="pltitle">PlayerLoby</h1>
+
+    <div class="roominfo">
+      <h3 id="roomid">room-ID :</h3>
+      <h3 id="roomName"></h3>
+    </div>
+
+    <div id="players">
+      <div class="avitar">
+        <img
+          id="p1image"
+          src="user.png"
+          alt="Smiley face"
+          height="70"
+          width="70"
+          style="visibility: hidden;"
+        />
+        <h3 id="player1"></h3>
+      </div>
+      <div class="avitar">
+        <img
+          id="p2image"
+          src="user.png"
+          alt="Smiley face"
+          height="42"
+          width="42"
+          style="visibility: hidden;"
+        />
+        <h3 id="player2"></h3>
+      </div>
+      <div class="avitar">
+        <img
+          id="p3image"
+          src="user.png"
+          alt="Smiley face"
+          height="42"
+          width="42"
+          style="visibility: hidden;"
+        />
+        <h3 id="player3"></h3>
+      </div>
+      <div class="avitar">
+        <img
+          id="p4image"
+          src="user.png"
+          alt="Smiley face"
+          height="42"
+          width="42"
+          style="visibility: hidden;"
+        />
+        <h3 id="player4"></h3>
+      </div>
+    </div>
+    <div id="this"></div>
+    <div id="StartGame"></div>
+    <div>
+      <form id="request" action="/rummy" method="POST">
+        <button type="submit">Start Game</button>
+      </form>
+    </div>
+    <script>
+      const connect = io();
+      connect.emit("hello", "hellso");
+
+      connect.on("go", (info) => {
+        console.log(info);
+        document.getElementById("request").submit();
+      });
+
+      const StartGame = false;
+
+      const playerroom = document.getElementById("this");
+      const Roomname = document.getElementById("roomName");
+      const people = document.getElementById("players");
+      const player1 = document.getElementById("player1");
+      const player2 = document.getElementById("player2");
+      const player3 = document.getElementById("player3");
+      const player4 = document.getElementById("player4");
+      const starting = document.getElementById("StartGame");
+
+      const play1img = document.getElementById("p1image");
+      const play2img = document.getElementById("p2image");
+      const play3img = document.getElementById("p3image");
+      const play4img = document.getElementById("p4image");
+
+      const data = { name: "Fham", date: "Today's Date" };
+      const options = {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      };
+
+      async function getData() {
+        const send = await fetch("/api", options);
+        const gotit = await send.json();
+        Roomname.innerHTML = gotit.roomid;
+        showplayers(gotit.user);
+      }
+      function showplayers(nameid) {
+        if (nameid.length == 1) {
+          player1.innerHTML = nameid[0].name;
+          play1img.style.visibility = "visible";
+        } else if (nameid.length == 2) {
+          play1img.style.visibility = "visible";
+          player1.innerHTML = nameid[0].name;
+          play2img.style.visibility = "visible";
+          player2.innerHTML = nameid[1].name;
+        } else if (nameid.length == 3) {
+          play1img.style.visibility = "visible";
+          player1.innerHTML = nameid[0].name;
+          play2img.style.visibility = "visible";
+          player2.innerHTML = nameid[1].name;
+          play3img.style.visibility = "visible";
+          player3.innerHTML = nameid[2].name;
+        } else {
+          play1img.style.visibility = "visible";
+          player1.innerHTML = nameid[0].name;
+          play2img.style.visibility = "visible";
+          player2.innerHTML = nameid[1].name;
+          play3img.style.visibility = "visible";
+          player3.innerHTML = nameid[2].name;
+          play4img.style.visibility = "visible";
+          player4.innerHTML = nameid[3].name;
+        }
+      }
+      getData();
+      setInterval(getData, 1000);
+    </script>
+  </body>
+</html>

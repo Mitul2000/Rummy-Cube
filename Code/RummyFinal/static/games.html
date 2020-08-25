@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>A Multiplayer Game</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="jquery-3.5.0.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1
+      style="
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #f4f6f6;
+      "
+    >
+      Rummy-O-Game
+    </h1>
+    <hr />
+
+    <div class="header" id="board"></div>
+    <div id="chatbox">
+      <h4 id="playerName">helo</h4>
+      <div id="message-container"></div>
+      <div id="button-text">
+        <form id="send-container">
+          <input type="text" id="message-input" />
+          <button type="submit" id="send-button">Send</button>
+        </form>
+      </div>
+    </div>
+    <div id="decks" class="deck"></div>
+    <div id="cards"></div>
+
+    <div class="options">
+      <div id="sorthand"><h5>Sort</h5></div>
+      <div id="validate"><h5>End</h5></div>
+      <h4 id="playerNames">helo</h4>
+      <h1 id="op">Timer</h1>
+    </div>
+    <script type="module" defer src="game.js"></script>
+    <script type="module" defer src="Board.js"></script>
+    <script type="module" defer src="Deck.js"></script>
+    <script type="module" defer src="Hand.js"></script>
+    <script type="module" defer src="BoardState.js"></script>
+    <script type="module" defer src="Chat.js"></script>
+  </body>
+</html>

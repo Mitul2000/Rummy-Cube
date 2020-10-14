@@ -35,3 +35,5 @@ The team reflection assessment includes the team's insight on the creation of th
 [Tracebility Matrix](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/blob/master/Tracability%20Matrix%20-%20Sheet1.pdf)
 
 This is the tracebility matrix used during the creation of this project.
+
+Repo cloned 10/14/2020

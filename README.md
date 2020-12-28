@@ -15,7 +15,7 @@ The requirements of this project are properly displayed in details in the requir
 
 The use cases created for this project are stored in the Use Cases folder. These use cases were used for the designing of this project.
 
-[Design](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/tree/master/Design)
+[Design](https://github.com/Mitul2000/Rummy-Cube/tree/master/Design)
 
 The design folder includes all the class diagrams, sequence diagrams, component diagrams, and the state diagram. All these diagrams helped in implementing the project. The review report in the design folder explains all the diagrams.
 

@@ -7,6 +7,8 @@ The main objective of this project is to create a web-based working prototype of
 
 [Demo] (https://youtu.be/BriUKxoawiw)
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/BriUKxoawiw/0.jpg)](https://www.youtube.com/watch?v=BriUKxoawiw)
+
 Table of Content
 
 [Requirements](https://github.com/Mitul2000/Rummy-Cube/tree/master/Requirements)

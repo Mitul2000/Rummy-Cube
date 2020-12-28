@@ -7,7 +7,7 @@ The main objective of this project is to create a web-based working prototype of
 
 Table of Content
 
-[Requirements](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/tree/master/Requirements)
+[Requirements](https://github.com/Mitul2000/Rummy-Cube/tree/master/Requirements)
 
 The requirements of this project are properly displayed in details in the requirements folder. The folder contains a tabular list with all the requirements listed properly. The requirement review report shows all the requirements and the user stories used to create these requirements.
 

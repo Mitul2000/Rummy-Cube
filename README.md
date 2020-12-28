@@ -1,8 +1,7 @@
-# Rummy Game Group 7 Week 1
-## Krutarth Dave - 100730797
-## Preet Patel - 100708239
-## Jay Patel - 100658857
+# Rummy Game 
+
 ## Mitul Patel - 100700131
+## Preet Patel - 100708239
 
 The main objective of this project is to create a web-based working prototype of the Rummy-O tile game. In order to do this correctly, certain requirements need to be fulfilled during the development of the game. The game is similar to the rummy card game. It is supposed to host 2 to 4 players.
 

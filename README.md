@@ -5,6 +5,8 @@
 
 The main objective of this project is to create a web-based working prototype of the Rummy-O tile game. In order to do this correctly, certain requirements need to be fulfilled during the development of the game. The game is similar to the rummy card game. It is supposed to host 2 to 4 players.
 
+[Demo] (https://youtu.be/BriUKxoawiw)
+
 Table of Content
 
 [Requirements](https://github.com/Mitul2000/Rummy-Cube/tree/master/Requirements)

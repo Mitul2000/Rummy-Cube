@@ -31,7 +31,7 @@ The test cases folder includes all the test cases for the solution of this probl
 
 The team reflection assessment includes the team's insight on the creation of this project, the apporach used by the team to make this project successful.
 
-[Tracebility Matrix](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/blob/master/Tracability%20Matrix%20-%20Sheet1.pdf)
+[Tracebility Matrix](https://github.com/Mitul2000/Rummy-Cube/blob/master/Tracability%20Matrix%20-%20Sheet1.pdf)
 
 This is the tracebility matrix used during the creation of this project.
 

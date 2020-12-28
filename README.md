@@ -11,7 +11,7 @@ Table of Content
 
 The requirements of this project are properly displayed in details in the requirements folder. The folder contains a tabular list with all the requirements listed properly. The requirement review report shows all the requirements and the user stories used to create these requirements.
 
-[Use Cases](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/tree/master/Use%20Cases)
+[Use Cases](https://github.com/Mitul2000/Rummy-Cube/tree/master/Use%20Cases)
 
 The use cases created for this project are stored in the Use Cases folder. These use cases were used for the designing of this project.
 

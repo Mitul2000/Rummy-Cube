@@ -15,5 +15,5 @@ take place.
 State diagrams show all of the different states that a software program can take and change to
 during its execution process.
 
-[Design Review Report](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/blob/master/Design/Design%20Elements%20Review%20Report.pdf)
+[Design Review Report](https://github.com/Mitul2000/Rummy-Cube/blob/master/Design/design_document.pdf)
 The review report explains the diagrams used for the planning of this project.

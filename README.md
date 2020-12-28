@@ -23,7 +23,7 @@ The design folder includes all the class diagrams, sequence diagrams, component 
 
 The code folder includes all the code for the solution of this problem.
 
-[Test Cases](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/tree/master/Test%20Cases)
+[Test Cases](https://github.com/Mitul2000/Rummy-Cube/tree/master/Code/RummyFinal/test)
 
 The test cases folder includes all the test cases for the solution of this problem. 
 

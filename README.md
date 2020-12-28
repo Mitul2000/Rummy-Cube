@@ -27,12 +27,7 @@ The code folder includes all the code for the solution of this problem.
 
 The test cases folder includes all the test cases for the solution of this problem. 
 
-[Team Reflection Assessment](https://github.com/RLiscanoUOIT/Rummy-Game-FInal-Group7-Week1/blob/master/Team%20Reflection%20Assessment%20(1).pdf)
-
-The team reflection assessment includes the team's insight on the creation of this project, the apporach used by the team to make this project successful.
-
 [Tracebility Matrix](https://github.com/Mitul2000/Rummy-Cube/blob/master/Tracability%20Matrix%20-%20Sheet1.pdf)
 
 This is the tracebility matrix used during the creation of this project.
 
-Repo cloned 10/14/2020
